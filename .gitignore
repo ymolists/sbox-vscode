@@ -1,0 +1,28 @@
+.idea
+.fleet
+.vscode
+.DS_Store
+
+dist
+build
+debug
+__debug_*
+debug.test
+
+#gen files
+*.gen.go
+*_gen.go
+*.gen.go-got
+*.gen_test.go
+
+#nodejs files
+node_modules
+
+#env files
+*.env
+
+#lock files
+*-lock.json
+
+#generated files
+internal/oapi
