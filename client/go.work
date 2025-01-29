@@ -2,5 +2,5 @@ go 1.23.4
 
 use (
 	.
-	// ../server-latest
+	../server-latest
 )

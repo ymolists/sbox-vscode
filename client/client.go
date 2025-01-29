@@ -10,4 +10,5 @@ import (
 func main() {
 
 	fmt.Fprintf(os.Stderr, "%s\n", server.ServerFunc())
+	fmt.Fprintf(os.Stderr, "%s\n", server.ServerNew00())
 }
